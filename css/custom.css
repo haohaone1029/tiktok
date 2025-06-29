@@ -1,0 +1,92 @@
+
+body{
+  font-family:"Roboto",sans-serif;
+  font-size:14px;
+  margin:0;
+  padding:0;
+  color:#222;
+  overflow-x:hidden;
+  counter-reset:my-sec-counter;
+  scroll-behavior: smooth
+}
+ .text-center {
+    text-align: center!important;
+    font-size: 15px;
+ } 
+
+.badge-pill {
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    border-radius: 10rem;
+    font-size: 13px;
+}
+.list-group-item {
+    border: none;
+}
+.btn-auth {
+    display: block; /* Äáº£m báº£o nĂºt chiáº¿m toĂ n bá»™ chiá»u ngang */
+    width: 100%; /* Full ngang */
+    background: linear-gradient(45deg, #6a0572, #c32f27, #ff7b00, #f7d000, #16a085, #2980b9); /* Gradient má»›i */
+    font-size: 14px; /* Font chá»¯ vá»«a pháº£i */
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.5rem; /* Bo gĂ³c nháº¹ */
+    border: none;
+    padding: 5px 0;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-size: 200% 200%; /* TÄƒng kĂ­ch thÆ°á»›c gradient Ä‘á»ƒ táº¡o chuyá»ƒn Ä‘á»™ng */
+}
+
+.btn-auth:hover {
+    transform: translateY(-4px); /* Hiá»‡u á»©ng nĂ¢ng cao hÆ¡n khi hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4); /* BĂ³ng Ä‘á»• rĂµ hÆ¡n */
+}
+
+.btn-auth:active {
+    transform: scale(0.92); /* Hiá»‡u á»©ng thu nhá» hÆ¡n khi nháº¥n */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5); /* Giáº£m bĂ³ng Ä‘á»• */
+    background: linear-gradient(45deg, #ff7b00, #c32f27, #6a0572); /* MĂ u gradient táº­p trung vĂ o tĂ´ng nĂ³ng */
+}
+
+        
+    .nav-pills .nav-link {
+    background: #00000026;
+   }  
+   .card-title {
+    margin-bottom: .5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-hot-deal {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 7px 13px;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 2px dotted red;
+}
+
+.footer {
+    padding-top: 40px;
+    background: #252525;
+    color: rgba(161,161,161,.6);
+    -webkit-clip-path: polygon(0 0,36% 0,calc(36% + 1.25rem) 1.25rem,100% 1.25rem,100% 100%,0 100%);
+    clip-path: polygon(0 0,36% 0,calc(36% + 1.25rem) 1.25rem,100% 1.25rem,100% 100%,0 100%);
+    text-align: center;
+}
+.badge-module {
+    padding: 0.45em 0.6em;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.swal2-popup {
+    font-size: 14px; 
+}

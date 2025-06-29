@@ -1,0 +1,15 @@
+# BẢO MẬT WEBSITE THUÊ CODE WEBSITE LIÊN HỆ TELEGRAM @BUIDUCTHANH
+
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^coin$ index.php [L]
+RewriteRule ^foryou$ index.php [L]
+
+RewriteRule ^ConvertID$ /ajax/ConvertID.php [L]
+RewriteRule ^NapThe$ /ajax/NapThe.php [L]
+RewriteRule ^banktayx$ /ajax/banktayx.php [L]
